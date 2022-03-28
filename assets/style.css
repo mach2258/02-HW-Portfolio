@@ -1,0 +1,58 @@
+*{
+    font-family:'Courier New', Courier, monospace
+}
+
+:root{
+    --darkgrey: rgb(15, 15, 15);
+    --aqua: rgb(119, 241, 201);
+}
+
+header{
+    background-color: var(--darkgrey);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+}
+
+#name{
+    background-color: var(--aqua);
+    font-size: 1.5rem;
+    padding: .5%;
+    padding-left: 5vw;
+}
+
+ul li{
+    color: var(--aqua);
+    display: inline;
+    float: right;
+    padding: 5px;
+    margin-right: 2vw;
+    text-underline-offset: 4px;
+}
+
+li a:visited,li a:hover{
+    color: var(--aqua);
+}
+
+#mainimg{
+    height: 200px;
+    position: relative;
+}
+
+#mainimg>img{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+}
+
+#Welcome{
+    display: flex;
+    position: relative;
+    float: right;
+    padding: 1%;
+    background-color: var(--aqua);
+    margin-right: 50px;
+    margin-top: -60px;
+}
