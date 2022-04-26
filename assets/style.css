@@ -5,6 +5,7 @@
 :root{
     --darkgrey: rgb(15, 15, 15);
     --aqua: rgb(119, 241, 201);
+    --blue: rgb( 0, 0, 255)
 }
 
 header{
@@ -115,3 +116,12 @@ section div p{
     left: 0;
     background-color: var(--aqua);
 }
+
+.card div a{
+    color: black;
+}
+
+.card div a:hover{
+    color: var(--blue);
+}
+
